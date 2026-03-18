@@ -1,51 +1,64 @@
-# Welcome to your Expo app 👋
+# 🚀 DevMarket - Oyunlaştırılmış Yazılımcı Pazarı (Challenge-4)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+DevMarket, yazılımcı yetkinliklerini ve tecrübelerini interaktif bir şekilde takip etmeyi sağlayan, modern UI/UX prensipleri ve oyunlaştırma (gamification) dinamikleriyle geliştirilmiş bir **React Native** uygulamasıdır.
 
-## Get started
+## 🎯 Projenin Amacı
 
-1. Install dependencies
+Bu proje, klasik bir personel listesini eğlenceli ve etkileşimli bir "ekip kurma simülasyonuna" dönüştürür. Kullanıcılar, projelerine dahil ettikleri yazılımcıların gelişimini XP ve Seviye sistemi üzerinden anlık olarak izleyebilirler.
 
+## 🎮 Oyunlaştırma ve Modern Özellikler
+
+- **XP (Tecrübe Puanı) Sistemi:** "Projeye Ekle" butonuna her basıldığında yazılımcı +25 XP kazanır.
+- **Dinamik Level Atlatma:** 100 XP eşiğine ulaşıldığında yazılımcı otomatik olarak seviye atlar (Lvl 1 -> Lvl 2).
+- **Görsel İlerleme Çubuğu:** Yazılımcının gelişimini gösteren, her karaktere özel renkli Progress Bar.
+- **Mikro Etkileşimler:** `Animated` kütüphanesi ile butonlara basma (scale) efekti ve akıcı liste geçişleri.
+- **Modern UI:** Flexbox düzeni, derinlik algısı (Shadow/Elevation) ve temiz tipografi.
+
+## 📺 Tanıtım Videoları
+
+Uygulamanın gelişim sürecini ve final halini aşağıdaki linklerden izleyebilirsiniz:
+
+- 🔹 **[Challenge-3 (Temel Yapı)](https://youtube.com/shorts/7vjHyXP5EEE)**
+- 🔥 **[Challenge-4 (Final - Oyunlaştırılmış Versiyon)](https://youtube.com/shorts/r8rsjxNYT84)**
+
+## 📦 Mobil Uygulamayı Dene (APK)
+
+Uygulamayı Android cihazınıza indirip hemen test edebilirsiniz:
+https://expo.dev/accounts/mrcyberexe/projects/Challenge-4
+
+---
+
+## 🛠️ Kurulum ve Çalıştırma (Installation)
+
+Projeyi yerel ortamınızda çalıştırmak için:
+
+1. **Repoyu bilgisayarınıza indirin:**
    ```bash
-   npm install
+   git clone https://github.com/Abdulrahman-Akkash/Challenge-4
+   cd Challenge-4
+   Gerekli paketleri yükleyin:
    ```
 
-2. Start the app
+Bash
+npm install
+Expo ile başlatın:
 
-   ```bash
-   npx expo start
-   ```
+Bash
+npx expo start
+Telefonunuzdaki Expo Go uygulaması ile ekrandaki QR kodu taratarak projeyi anında görebilirsiniz.
 
-In the output, you'll find options to open the app in a
+👥 Kullanıcı Geri Bildirim Raporu
+Uygulama 3 farklı kullanıcıya test ettirilmiş ve şu geri bildirimler alınmıştır:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Kullanıcı 1: "XP barının dolması ve seviye atlama mekaniği uygulamayı çok daha ilgi çekici kılmış, bırakasım gelmedi."
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Kullanıcı 2: "Arayüz çok temiz, butonların animasyonlu olması dokunma hissini çok iyi yansıtıyor."
 
-## Get a fresh project
+Kullanıcı 3: "Her yazılımcının kendine has bir renginin olması ekipteki çeşitliliği güzel hissettiriyor."
 
-When you're ready, run:
+👨‍💻 Geliştirici
+İsim: Abdulrahman Akkash
 
-```bash
-npm run reset-project
-```
+Proje: React Native Mobile Challenge #4 (Final Project)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# Challenge-4
+Teknolojiler: React Native, Expo, EAS Build, JavaScript
